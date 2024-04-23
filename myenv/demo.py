@@ -7,5 +7,3 @@ print("dataset contents", dataset)
 
 # Launch app
 session = fo.launch_app(dataset, port=5151)
-
-
