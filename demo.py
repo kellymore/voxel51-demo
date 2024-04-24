@@ -2,8 +2,8 @@ import fiftyone as fo
 # dataset zoo with common datasets
 import fiftyone.zoo as foz
 
-dataset = foz.load_zoo_dataset("quickstart")
-print("dataset contents", dataset)
+video = foz.load_zoo_dataset("quickstart-video")
+print("dataset contents", video)
 
 # Launch app
-session = fo.launch_app(dataset, port=5151)
+session = fo.launch_app(video, port=5152)
